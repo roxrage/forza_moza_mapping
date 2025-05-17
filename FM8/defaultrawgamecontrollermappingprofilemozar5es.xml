@@ -1,7 +1,7 @@
 <RawGameControllerInputMappingProfile Version="1" Id="5cec9241-02d5-447c-a62a-76206efabb3e" UserFacingName="IDS_MOZAR5ES" IsDefaultProfile="1" PrimaryDeviceVidPid="879624196" FFBDeviceVidPid="879624196" FFBMotorIndex="0">
 
 
-  <!-- Custom Mapping 09.05.2025 Trinity -->
+  <!-- Custom Mapping 09.05.2025 Roxrage -->
   <!-- Moza R5 with handbrake and HPG shifter -->
   <!-- Moza R5 VIDPID = hex 0x346e0004, decimal 879624196 -->
   <!-- Moza HPG Shifter VIDPID = hex 0x346e001e, decimal 879624222 -->
