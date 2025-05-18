@@ -24,33 +24,33 @@
     <Value Version="1" Key="INPUTCMD_SHIFTDOWN" VidPid="0x346e0005" InputType="Button" Index="12" />
 	
 	<!-- 倒转 -->
-    <Value Version="1" Key="INPUTCMD_MULLIGAN" VidPid="0x346e0005" InputType="Button" Index="34" />
+    <Value Version="1" Key="INPUTCMD_MULLIGAN" VidPid="0x346e0005" InputType="Button" Index="3" />
 	<!-- 手刹 -->
-    <Value Version="1" Key="INPUTCMD_HANDBRAKE" VidPid="0x346e0005" InputType="Axis" Index="7" InvertAxis="false" InnerDeadzone="0.0" OuterDeadzone="1.0" />
+    <Value Version="1" Key="INPUTCMD_HANDBRAKE" VidPid="0x346e0005" InputType="Button" Index="0" />
     <!-- 暂停游戏 -->
-    <Value Version="1" Key="INPUTCMD_PAUSE_GAME" VidPid="0x346e0005" InputType="Button" Index="37" />
+    <Value Version="1" Key="INPUTCMD_PAUSE_GAME" VidPid="0x346e0005" InputType="Button" Index="36" />
     <!-- 切换游戏视角 -->
-    <Value Version="1" Key="INPUTCMD_SWITCH_CAMERA" VidPid="0x346e0005" InputType="Button" Index="21" />
+    <Value Version="1" Key="INPUTCMD_SWITCH_CAMERA" VidPid="0x346e0005" InputType="Button" Index="34" />
 	<!-- 喇叭，车辆鸣笛功能 -->
-    <Value Version="1" Key="INPUTCMD_HORN" VidPid="0x346e0005" InputType="Button" Index="0" />
+    <Value Version="1" Key="INPUTCMD_HORN" VidPid="0x346e0005" InputType="Button" Index="20" />
 	<!-- 激活 ANNA 系统 -->
-	<Value Version="1" Key="INPUTCMD_ANNA_ACTIVATE" VidPid="0x346e0005" InputType="Button" Index="" />
+	<Value Version="1" Key="INPUTCMD_ANNA_ACTIVATE" VidPid="0x346e0005" InputType="Button" Index="4" />
 	<!-- 切换遥测数据显示 -->
-    <Value Version="1" Key="INPUTCMD_TELEMETRY_TOGGLE" VidPid="0x346e0005" InputType="Button" Index="32" />
+    <Value Version="1" Key="INPUTCMD_TELEMETRY_TOGGLE" VidPid="0x346e0005" InputType="Button" Index="6" />
     <!-- 切换上一个遥测数据项 -->
-    <Value Version="1" Key="INPUTCMD_TELEMETRY_PREV" VidPid="0x346e0005" InputType="Button" Index="18" />
+    <Value Version="1" Key="INPUTCMD_TELEMETRY_PREV" VidPid="0x346e0005" InputType="Button" Index="7" />
     <!-- 切换下一个遥测数据项 -->
-    <Value Version="1" Key="INPUTCMD_TELEMETRY_NEXT" VidPid="0x346e0005" InputType="Button" Index="19" />
+    <Value Version="1" Key="INPUTCMD_TELEMETRY_NEXT" VidPid="0x346e0005" InputType="Button" Index="5" />
 	
 	<!-- 激活某个功能 -->
-    <Value Version="1" Key="INPUTCMD_ACTIVATE" VidPid="0x346e0005" InputType="Button" Index="35" />
+    <Value Version="1" Key="INPUTCMD_ACTIVATE" VidPid="0x346e0005" InputType="Button" Index="23" />
 	
 	<!-- 在游戏中向左看 -->
-    <Value Version="1" Key="INPUTCMD_LOOK_LEFT" VidPid="0x346e0005" InputType="Button" Index="7" />
+    <Value Version="1" Key="INPUTCMD_LOOK_LEFT" VidPid="0x346e0005" InputType="Button" Index="20" />
     <!-- 在游戏中向右看 -->
-    <Value Version="1" Key="INPUTCMD_LOOK_RIGHT" VidPid="0x346e0005" InputType="Button" Index="5" />
+    <Value Version="1" Key="INPUTCMD_LOOK_RIGHT" VidPid="0x346e0005" InputType="Button" Index="33" />
     <!-- 在游戏中看后方 -->
-    <Value Version="1" Key="INPUTCMD_LOOK_STRAIGHT_BACK" VidPid="0x346e0005" InputType="Button" Index="6" />
+    <Value Version="1" Key="INPUTCMD_LOOK_STRAIGHT_BACK" VidPid="0x346e0005" InputType="Button" Index="0" />
 	
 	<!-- 倒档 -->
     <Value Version="1" Key="INPUTCMD_GEAR_REVERSE" VidPid="0x346e0005" InputType="Button" Index="" /> 
@@ -72,34 +72,34 @@
   
   <Context Version="1" Context="INPUTCONTEXT_RACING_UI">
     <!-- 激活 ANNA 系统 -->
-	<Value Version="1" Key="INPUTCMD_ANNA_ACTIVATE" VidPid="0x346e0005" InputType="Button" Index="" />
+	<Value Version="1" Key="INPUTCMD_ANNA_ACTIVATE" VidPid="0x346e0005" InputType="Button" Index="4" />
     <!-- 切换拍照模式 -->
-    <Value Version="1" Key="INPUTCMD_PHOTO_MODE_TOGGLE" VidPid="0x346e0005" InputType="Button" Index="31" />
+    <Value Version="1" Key="INPUTCMD_PHOTO_MODE_TOGGLE" VidPid="0x346e0005" InputType="Button" Index="6" />
     <!-- Key激活快速聊天功能 -->
-    <Value Version="1" Key="INPUTCMD_QUICKCHAT_ACTIVATE" VidPid="0x346e0005" InputType="Button" Index="20" />
+    <Value Version="1" Key="INPUTCMD_QUICKCHAT_ACTIVATE" VidPid="0x346e0005" InputType="Button" Index="7" />
     <!-- 电台切换至下一首 -->
-    <Value Version="1" Key="INPUTCMD_RADIO_RIGHT" VidPid="0x346e0005" InputType="Button" Index="22" />
+    <Value Version="1" Key="INPUTCMD_RADIO_RIGHT" VidPid="0x346e0005" InputType="Button" Index="5" />
   </Context>
   
   <Context Version="1" Context="INPUTCONTEXT_ANNA">
     <!-- ANNA选项1 -->
-    <Value Version="1" Key="INPUTCMD_ANNA_ITEM_1" VidPid="0x346e0005" InputType="Button" Index="18" />
+    <Value Version="1" Key="INPUTCMD_ANNA_ITEM_1" VidPid="0x346e0005" InputType="Button" Index="4" />
     <!-- ANNA选项2  -->
-    <Value Version="1" Key="INPUTCMD_ANNA_ITEM_2" VidPid="0x346e0005" InputType="Button" Index="19" />
+    <Value Version="1" Key="INPUTCMD_ANNA_ITEM_2" VidPid="0x346e0005" InputType="Button" Index="7" />
     <!-- ANNA选项3  -->
-    <Value Version="1" Key="INPUTCMD_ANNA_ITEM_3" VidPid="0x346e0005" InputType="Button" Index="32" />
+    <Value Version="1" Key="INPUTCMD_ANNA_ITEM_3" VidPid="0x346e0005" InputType="Button" Index="5" />
 	<!-- ANNA选项4  -->
-    <Value Version="1" Key="INPUTCMD_ANNA_ITEM_4" VidPid="0x346e0005" InputType="Button" Index="31" />
+    <Value Version="1" Key="INPUTCMD_ANNA_ITEM_4" VidPid="0x346e0005" InputType="Button" Index="6" />
   </Context>
   
 
   <Context Version="1" Context="INPUTCONTEXT_COPTER">
     <!-- 切换拍照模式 -->
-    <Value Version="1" Key="INPUTCMD_PHOTO_MODE_TOGGLE" VidPid="0x346e0005" InputType="Button" Index="31" />
+    <Value Version="1" Key="INPUTCMD_PHOTO_MODE_TOGGLE" VidPid="0x346e0005" InputType="Button" Index="6" />
     <!-- 激活快速聊天功能 -->
-    <Value Version="1" Key="INPUTCMD_QUICKCHAT_ACTIVATE" VidPid="0x346e0005" InputType="Button" Index="20" />
+    <Value Version="1" Key="INPUTCMD_QUICKCHAT_ACTIVATE" VidPid="0x346e0005" InputType="Button" Index="7" />
     <!-- 电台切换至下一首 -->
-    <Value Version="1" Key="INPUTCMD_RADIO_RIGHT" VidPid="0x346e0005" InputType="Button" Index="22" />
+    <Value Version="1" Key="INPUTCMD_RADIO_RIGHT" VidPid="0x346e0005" InputType="Button" Index="5" />
   </Context>
   
   <!-- 自由视角下相关操作 --> 
@@ -349,22 +349,22 @@
   <Context Version="1" Context="INPUTCONTEXT_RACING_CAMERA_ONLY">
 
     <!-- 暂停游戏 -->
-    <Value Version="1" Key="INPUTCMD_PAUSE_GAME" VidPid="0x346e0005" InputType="Button" Index="37" />
+    <Value Version="1" Key="INPUTCMD_PAUSE_GAME" VidPid="0x346e0005" InputType="Button" Index="36" />
     <!-- 切换游戏视角 -->
-    <Value Version="1" Key="INPUTCMD_SWITCH_CAMERA" VidPid="0x346e0005" InputType="Button" Index="21" />
+    <Value Version="1" Key="INPUTCMD_SWITCH_CAMERA" VidPid="0x346e0005" InputType="Button" Index="34" />
     <!-- 喇叭，车辆鸣笛功能 -->
-    <Value Version="1" Key="INPUTCMD_HORN" VidPid="0x346e0005" InputType="Button" Index="0" />
+    <Value Version="1" Key="INPUTCMD_HORN" VidPid="0x346e0005" InputType="Button" Index="20" />
 	<!-- 激活 ANNA 系统 -->
-    <Value Version="1" Key="INPUTCMD_ANNA_ACTIVATE" VidPid="0x346e0005" InputType="Button" Index="" />
+    <Value Version="1" Key="INPUTCMD_ANNA_ACTIVATE" VidPid="0x346e0005" InputType="Button" Index="4" />
     <!-- 切换遥测数据显示，可能用于显示或隐藏车辆性能等相关数据 -->
-    <Value Version="1" Key="INPUTCMD_TELEMETRY_TOGGLE" VidPid="0x346e0005" InputType="Button" Index="32" />
+    <Value Version="1" Key="INPUTCMD_TELEMETRY_TOGGLE" VidPid="0x346e0005" InputType="Button" Index="6" />
     <!-- 切换上一个遥测数据项 -->
-    <Value Version="1" Key="INPUTCMD_TELEMETRY_PREV" VidPid="0x346e0005" InputType="Button" Index="18" />
+    <Value Version="1" Key="INPUTCMD_TELEMETRY_PREV" VidPid="0x346e0005" InputType="Button" Index="7" />
     <!-- 切换下一个遥测数据项 -->
-    <Value Version="1" Key="INPUTCMD_TELEMETRY_NEXT" VidPid="0x346e0005" InputType="Button" Index="19" />
+    <Value Version="1" Key="INPUTCMD_TELEMETRY_NEXT" VidPid="0x346e0005" InputType="Button" Index="5" />
 
     <!-- 激活某个功能 -->
-    <Value Version="1" Key="INPUTCMD_ACTIVATE" VidPid="0x346e0005" InputType="Button" Index="20" />
+    <Value Version="1" Key="INPUTCMD_ACTIVATE" VidPid="0x346e0005" InputType="Button" Index="23" />
 
     <!-- 在游戏中向左看 -->
     <Value Version="1" Key="INPUTCMD_LOOK_LEFT" VidPid="0x346e0005" InputType="Button" Index="7" />
