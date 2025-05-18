@@ -1,13 +1,22 @@
-## Forza Moza Mapping Config Files
+# Forza - Moza Mapping Config Files
 
-Moza or MSFT introduced a bug in Forza Horizon 5 in May 2025 which has several issues with the Moza Steering Wheel button mapping.
+## Forza Horizon 5
 
-For example:
-The car will rev constantly in tuning menu. Which is just stupid ^^
+Moza or MSFT introduced a bug in Forza Horizon 5 on 25th of April 2025 which has several issues with the Moza Steering Wheel button mapping.
 
-Since I was annoyed about this, I checked the config files and changed it, so that all buttons have a logical default behaviour and no strange "Press Tab in tuning menu bc on my R5 is no Tab key" nonsense.
+Issue 1:
 
-Also I had major issues with the button mapping in FM8, where it would not be saved, i could not use D-Pad for navigation etc. so I also made a profile for this game.
+The car will rev constantly in tuning menu. The mapping of "Tab" is mapped to axis 0 which is steering and therefore is never zero so it revs.
+
+Issue 2:
+
+In race the button "A" is hardcode mapped to "look_straight_backwards" which is annoying if you remap buttons in game and hardcoded mapping is not overridden.
+
+Since I was annoyed about this, I checked the config files and changed it.
+
+## Forza Motorsport 8
+
+Also I had major issues with the button mapping in FM8, where it would not be saved, i could not use D-Pad for navigation in menu etc. so I also made a profile for this game.
 
 ## Installation
 
