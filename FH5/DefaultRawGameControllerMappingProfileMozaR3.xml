@@ -312,7 +312,7 @@
     <!-- UI 界面中 Y 按键的重复操作 -->
     <Value Version="1" Key="INPUTCMD_UI_Y_REPEAT" VidPid="0x346e0005" InputType="Button" Index="3" />
 	
-	 <!-- RTrigger Press (TAB) -->
+	<!-- RTrigger Press (TAB) -->
     <Value Version="1" Key="INPUTCMD_UI_RTRIGGER_PRESS" VidPid="0x346e0005" InputType="Axis" Index="2" InvertAxis="false" InnerDeadzone="0.0" OuterDeadzone="1.0" />
 	<!-- UI 界面中右扳机键的释放操作（通过轴输入实现） -->
     <Value Version="1" Key="INPUTCMD_UI_RTRIGGER_RELEASE" VidPid="0x346e0005" InputType="Axis" Index="2" InvertAxis="false" InnerDeadzone="0.0" OuterDeadzone="1.0" />
@@ -334,11 +334,11 @@
     <Value Version="1" Key="INPUTCMD_UI_RBUMPER_REPEAT" VidPid="0x346e0005" InputType="Button" Index="13" />
 	
     <!-- LTrigger Press (LEFT SHIFT) -->
-    <Value Version="1" Key="INPUTCMD_UI_LSTICK_PRESS" VidPid="0x346e0005" InputType="Axis" Index="6" />
+    <Value Version="1" Key="INPUTCMD_UI_LSTICK_PRESS" VidPid="0x346e0005" InputType="Axis" Index="5" />
     <!-- UI 界面中LS按键的释放操作 -->
-    <Value Version="1" Key="INPUTCMD_UI_LSTICK_RELEASE" VidPid="0x346e0005" InputType="Button" Index="" />
+    <Value Version="1" Key="INPUTCMD_UI_LSTICK_RELEASE" VidPid="0x346e0005" InputType="Button" Index="5" />
 	<!-- UI 界面中LS按键的重复操作 -->
-    <Value Version="1" Key="INPUTCMD_UI_LSTICK_REPEAT" VidPid="0x346e0005" InputType="Button" Index="" />
+    <Value Version="1" Key="INPUTCMD_UI_LSTICK_REPEAT" VidPid="0x346e0005" InputType="Button" Index="5" />
 	
 	<!-- 在回放时降低播放速度（通过轴输入实现） -->
     <Value Version="1" Key="INPUTCMD_UI_REPLAY_SPEED_LEFT" VidPid="0x346e0005" InputType="Axis" Index="5" InvertAxis="false" InnerDeadzone="0.0" OuterDeadzone="1.0" />
