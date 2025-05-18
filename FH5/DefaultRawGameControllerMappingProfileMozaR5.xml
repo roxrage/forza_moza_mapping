@@ -333,8 +333,8 @@
 	<!-- UI 界面中RB按键的重复操作 -->
     <Value Version="1" Key="INPUTCMD_UI_RBUMPER_REPEAT" VidPid="0x346e0004" InputType="Button" Index="13" />
 	
-    <!-- LTrigger Press (LEFT SHIFT) -->
-    <Value Version="1" Key="INPUTCMD_UI_LSTICK_PRESS" VidPid="0x346e0004" InputType="Axis" Index="6" />
+    <!-- L Stick Press -->
+    <Value Version="1" Key="INPUTCMD_UI_LSTICK_PRESS" VidPid="0x346e0004" InputType="Axis" Index="" />
     <!-- UI 界面中LS按键的释放操作 -->
     <Value Version="1" Key="INPUTCMD_UI_LSTICK_RELEASE" VidPid="0x346e0004" InputType="Button" Index="" />
 	<!-- UI 界面中LS按键的重复操作 -->

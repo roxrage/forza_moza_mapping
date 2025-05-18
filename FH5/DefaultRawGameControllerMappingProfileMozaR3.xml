@@ -2,10 +2,8 @@
 <RawGameControllerInputMappingProfile Version="1" Id="eb08a7a1-2e26-4699-9572-f474540a7741" UserFacingName="IDS_DefaultWheelProfile_Moza_R3_Name" IsDefaultProfile="1" PrimaryDeviceVidPid="0x346e0005" FFBDeviceVidPid="0x346e0005" FFBMotorIndex="0">
 
   <!-- Custom Mapping 09.05.2025 Roxrage -->
-  <!-- Moza R3 with handbrake and HPG shifter -->
-  <!-- Is also working without HPG shifter -->
+  <!-- Moza R3 ES -->
   <!-- Moza R3 VIDPID = hex 0x346e0005, decimal 879624197 -->
-  <!-- Moza HPG Shifter VIDPID = hex 0x346e001e, decimal 879624222 -->
 
   <!-- Race -->
   <Context Version="1" Context="INPUTCONTEXT_RACING">
@@ -55,21 +53,21 @@
     <Value Version="1" Key="INPUTCMD_LOOK_STRAIGHT_BACK" VidPid="0x346e0005" InputType="Button" Index="6" />
 	
 	<!-- 倒档 -->
-    <Value Version="1" Key="INPUTCMD_GEAR_REVERSE" VidPid="0x346e001e" InputType="Button" Index="4" /> 
+    <Value Version="1" Key="INPUTCMD_GEAR_REVERSE" VidPid="0x346e0005" InputType="Button" Index="" /> 
 	<!-- 一档 -->
-    <Value Version="1" Key="INPUTCMD_GEAR_FIRST" VidPid="0x346e001e" InputType="Button" Index="5" />
+    <Value Version="1" Key="INPUTCMD_GEAR_FIRST" VidPid="0x346e0005" InputType="Button" Index="" />
 	<!-- 二档 -->
-    <Value Version="1" Key="INPUTCMD_GEAR_SECOND" VidPid="0x346e001e" InputType="Button" Index="6" />
+    <Value Version="1" Key="INPUTCMD_GEAR_SECOND" VidPid="0x346e0005" InputType="Button" Index="" />
 	<!-- 三档 -->
-    <Value Version="1" Key="INPUTCMD_GEAR_THIRD" VidPid="0x346e001e" InputType="Button" Index="7" />
+    <Value Version="1" Key="INPUTCMD_GEAR_THIRD" VidPid="0x346e0005" InputType="Button" Index="" />
 	<!-- 四档 -->
-    <Value Version="1" Key="INPUTCMD_GEAR_FOURTH" VidPid="0x346e001e" InputType="Button" Index="8" />
+    <Value Version="1" Key="INPUTCMD_GEAR_FOURTH" VidPid="0x346e0005" InputType="Button" Index="" />
 	<!-- 五档 -->
-    <Value Version="1" Key="INPUTCMD_GEAR_FIFTH" VidPid="0x346e001e" InputType="Button" Index="9" />
+    <Value Version="1" Key="INPUTCMD_GEAR_FIFTH" VidPid="0x346e0005" InputType="Button" Index="" />
 	<!-- 六档 -->
-    <Value Version="1" Key="INPUTCMD_GEAR_SIXTH" VidPid="0x346e001e" InputType="Button" Index="10" />
+    <Value Version="1" Key="INPUTCMD_GEAR_SIXTH" VidPid="0x346e0005" InputType="Button" Index="" />
     <!-- 7th gear -->
-    <Value Version="1" Key="INPUTCMD_GEAR_SEVENTH" VidPid="0x346e001e" InputType="Button" Index="11" />
+    <Value Version="1" Key="INPUTCMD_GEAR_SEVENTH" VidPid="0x346e0005" InputType="Button" Index="" />
   </Context>
   
   <Context Version="1" Context="INPUTCONTEXT_RACING_UI">
@@ -333,12 +331,12 @@
 	<!-- UI 界面中RB按键的重复操作 -->
     <Value Version="1" Key="INPUTCMD_UI_RBUMPER_REPEAT" VidPid="0x346e0005" InputType="Button" Index="13" />
 	
-    <!-- LTrigger Press (LEFT SHIFT) -->
-    <Value Version="1" Key="INPUTCMD_UI_LSTICK_PRESS" VidPid="0x346e0005" InputType="Axis" Index="5" />
+    <!-- L Stick Press -->
+    <Value Version="1" Key="INPUTCMD_UI_LSTICK_PRESS" VidPid="0x346e0005" InputType="Button" Index="" />
     <!-- UI 界面中LS按键的释放操作 -->
-    <Value Version="1" Key="INPUTCMD_UI_LSTICK_RELEASE" VidPid="0x346e0005" InputType="Button" Index="5" />
+    <Value Version="1" Key="INPUTCMD_UI_LSTICK_RELEASE" VidPid="0x346e0005" InputType="Button" Index="" />
 	<!-- UI 界面中LS按键的重复操作 -->
-    <Value Version="1" Key="INPUTCMD_UI_LSTICK_REPEAT" VidPid="0x346e0005" InputType="Button" Index="5" />
+    <Value Version="1" Key="INPUTCMD_UI_LSTICK_REPEAT" VidPid="0x346e0005" InputType="Button" Index="" />
 	
 	<!-- 在回放时降低播放速度（通过轴输入实现） -->
     <Value Version="1" Key="INPUTCMD_UI_REPLAY_SPEED_LEFT" VidPid="0x346e0005" InputType="Axis" Index="5" InvertAxis="false" InnerDeadzone="0.0" OuterDeadzone="1.0" />
