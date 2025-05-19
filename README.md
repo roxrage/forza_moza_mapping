@@ -1,5 +1,7 @@
 # Forza - Moza Mapping Config Files
 
+# IMPORTANT! You have to remap your controls in game after replacing the config file! Otherwise it will not work!
+
 ## Forza Horizon 5
 
 Moza or MSFT introduced a bug in Forza Horizon 5 on 25th of April 2025 which has several issues with the Moza Steering Wheel button mapping.
@@ -21,6 +23,10 @@ Also I had major issues with the button mapping in FM8, where it would not be sa
 ## Installation
 
 To use this config file for your Moza Steering Wheel, download the file and copy it to:
+
+Here is a short video of how to install and remap the controls:
+
+https://youtu.be/HveJplZZjtQ?si=DOeNxcCIr_7cYOFw
 
 
 ## FH5:
