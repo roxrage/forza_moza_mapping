@@ -1,5 +1,5 @@
 <Profiles>
-<RawGameControllerInputMappingProfile Version="1" Id="eb08a7a1-2e26-4699-9572-f474540a7742" UserFacingName="IDS_DefaultWheelProfile_Moza_R5_R5HGP" IsDefaultProfile="1" PrimaryDeviceVidPid="0x346e0004" FFBDeviceVidPid="0x346e0004" FFBMotorIndex="0">
+<RawGameControllerInputMappingProfile Version="1" Id="eb08a7a1-2e26-4699-9572-f474540a7742" UserFacingName="IDS_DefaultWheelProfile_Moza_R5_Name" IsDefaultProfile="1" PrimaryDeviceVidPid="0x346e0004" FFBDeviceVidPid="0x346e0004" FFBMotorIndex="0">
 
   <!-- Custom Mapping 09.05.2025 Roxrage -->
   <!-- Moza R5 with handbrake and HPG shifter -->
